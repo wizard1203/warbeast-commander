@@ -1,6 +1,6 @@
 # Third-party notices and license scope
 
-核查日期：2026-11-13。用户已确认：拟建公开仓库`wizard1203/warbeast-commander`，自有代码采用MIT。当前仍是本机发布准备，尚未创建远端仓库或GitHub Release。
+核查日期：2026-11-13。公开源码仓库：[wizard1203/warbeast-commander](https://github.com/wizard1203/warbeast-commander)。自有代码采用MIT；此次公开的是不附受限素材的源码预览版，不是独立游戏安装包，尚未提供可试玩的GitHub Release。
 
 ## 1. MIT的范围
 
@@ -43,7 +43,7 @@ Starter、Buildings、Icon和Magic也分别按各自官方页面的游戏／类�
 ## 6. 本源码包的安装与状态
 
 - [素材安装说明](docs/ASSET_INSTALLATION.md)列出本地合法安装入口与限制。
-- [源码候选状态](docs/RELEASE_STATUS.md)区分静态检查与待执行的干净环境验证。
+- [源码预览版状态](docs/RELEASE_STATUS.md)列出已完成的实际验证与尚未完成的发行验收。
 - [原生源码说明](docs/NATIVE_SOURCE.md)说明本包未启用原生二进制。
 
 本仓库不附开发机审计、私人报告、素材包、模型或历史录像；这些说明不是法律意见。未经核准的第三方内容不因代码采用MIT而可公开。
