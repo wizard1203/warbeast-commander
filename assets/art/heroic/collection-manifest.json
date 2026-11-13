@@ -1,0 +1,564 @@
+{
+  "schema_version": 1,
+  "pack_id": "heroic-collection-m36-user-supplied",
+  "runtime_root": "res://assets/third_party/heroic_collection/",
+  "attribution": "Heroic Asset Series artwork by Aleksandr Makarov (iknowkingrabbit), used under the author's asset-pack licenses.",
+  "public_raw_redistribution": false,
+  "texture_budget_bytes": 25165824,
+  "selected_rgba8_bytes": 4835328,
+  "packs": {
+    "overworld": {
+      "source_url": "https://iknowkingrabbit.itch.io/heroic-overworld",
+      "archive": {
+        "file": "HAS Overworld 2.1.zip",
+        "bytes": 3067814,
+        "sha256": "46e2210ea02a3fc494fc9f549f1c682ddf3a984a5839565948841192712eafab"
+      },
+      "license_source": "HAS Overworld 2.1/ReadMe!!!!.txt",
+      "files": {
+        "HAS Overworld 2.1/CaveBiome/CB-LandTileset.png": {
+          "bytes": 32088,
+          "sha256": "f2fb1fc6f2cb78f1f354a3fd2f993627f28c03df6baadd686f51ce5590745e17",
+          "width": 256,
+          "height": 352
+        },
+        "HAS Overworld 2.1/DirtBiome/DB-LandTileset.png": {
+          "bytes": 29077,
+          "sha256": "239a91813e61208245b6af393650240b4ff2ff7660e5fe65e53fe1f448299a2f",
+          "width": 256,
+          "height": 320
+        },
+        "HAS Overworld 2.1/GrassBiome/GB-LandTileset.png": {
+          "bytes": 31527,
+          "sha256": "d1ad7670be874e9498a4b3275b6e4a1915ddc04e88084ec3f853cc9131631e29",
+          "width": 256,
+          "height": 320
+        },
+        "HAS Overworld 2.1/IceBiome/IB-LandTileset.png": {
+          "bytes": 28104,
+          "sha256": "a3b0b0f5f498af13d9ca2a6f6d26a3a6573ac2ba88d9c754131f22a4807ac5d1",
+          "width": 256,
+          "height": 320
+        },
+        "HAS Overworld 2.1/MarshBiome/MB-LandTileset.png": {
+          "bytes": 32084,
+          "sha256": "95895edae46f1b5e15ffa5e0d7159ee045ca5fe76518a1e045376d4b7495772f",
+          "width": 256,
+          "height": 320
+        },
+        "HAS Overworld 2.1/Universal/Universal-Road-Tileset.png": {
+          "bytes": 10995,
+          "sha256": "acaf25ee12968501ff119e311a9abeea4eea481087a8158aca48bbb4a7480b3a",
+          "width": 256,
+          "height": 176
+        },
+        "HAS Overworld 2.1/Universal/Universal-Trees-And-Mountains.png": {
+          "bytes": 61224,
+          "sha256": "fa02eccdd438fa74c85d9f7fc1f51daaa319cd3d7b63161ca21acf24e5839374",
+          "width": 832,
+          "height": 496
+        }
+      }
+    },
+    "buildings": {
+      "source_url": "https://iknowkingrabbit.itch.io/heroic-building-pack",
+      "archive": {
+        "file": "HAS Buildings Pack 1.01.zip",
+        "bytes": 774483,
+        "sha256": "ae1f20b7ac036f7833a4ddf48f09497569e9d90f3fc57c5401ebe7ae1f926dca"
+      },
+      "license_source": "license.txt",
+      "files": {
+        "HAS Buildings Pack/AttributeModifier/TempleOfNature.png": {
+          "bytes": 936,
+          "sha256": "2130a4482b6cfc21b151eb091f8ad7bd1e55eeca885b5c5b777e205f39761602",
+          "width": 32,
+          "height": 32
+        },
+        "HAS Buildings Pack/AttributeModifier/TempleOfOrder.png": {
+          "bytes": 678,
+          "sha256": "5f19a037d124af57968bbede9833b2bd814abc6efd2bdee43652005c3bb0c67a",
+          "width": 32,
+          "height": 32
+        },
+        "HAS Buildings Pack/AttributeModifier/Tower.png": {
+          "bytes": 811,
+          "sha256": "e9d27623271064e8da4bb78af800fd5f5b6fc769d02e5dfa891fd565a1b977fb",
+          "width": 32,
+          "height": 32
+        },
+        "HAS Buildings Pack/AttributeModifier/TraningGrounds.png": {
+          "bytes": 1141,
+          "sha256": "8df7c2414c9f6efcff04162d0a16464b7a06473678ca0574c41bec409de80e9a",
+          "width": 32,
+          "height": 32
+        },
+        "HAS Buildings Pack/AttributeModifier/VeteranGuild.png": {
+          "bytes": 934,
+          "sha256": "a8392af8e4300ed625f63451733e8686e870df81728dc1cfc5a375e34242b18b",
+          "width": 48,
+          "height": 32
+        },
+        "HAS Buildings Pack/AttributeModifier/Weaponsmith.png": {
+          "bytes": 1133,
+          "sha256": "5b30475dfe5f15dbe8d734d8763562b27aaadb374c3e8b35456023dff6d830f7",
+          "width": 32,
+          "height": 32
+        },
+        "HAS Buildings Pack/Mines/GoldMine/GoldVein.png": {
+          "bytes": 964,
+          "sha256": "0e11925ea66e60d64fa941b8bbf7982e2cd824f8e4e55c214bf5e35d1fe7b7cf",
+          "width": 32,
+          "height": 32
+        },
+        "HAS Buildings Pack/Miscellaneous/Forge.png": {
+          "bytes": 733,
+          "sha256": "f8b49bbe630e3aa2a2e0c542aebc0f18dfa633f6e7afc60e1f4cc33d5087a4c1",
+          "width": 32,
+          "height": 32
+        },
+        "HAS Buildings Pack/Towns/Castle.png": {
+          "bytes": 2287,
+          "sha256": "cada4e596cdf2d3212737354960deb8444ccfe523ede088d9116003ba51cf27a",
+          "width": 64,
+          "height": 64
+        },
+        "HAS Buildings Pack/Towns/Inferno.png": {
+          "bytes": 1679,
+          "sha256": "65c0a2b18e123c8947da8ef6f149c916ca8464e6227283976058bcd4b21989f3",
+          "width": 64,
+          "height": 64
+        },
+        "HAS Buildings Pack/Towns/Necropolis.png": {
+          "bytes": 1985,
+          "sha256": "83e058e6ba36f5b43b8b8f0278e208b11737f3dfc41728cabf7c765d2b486be7",
+          "width": 64,
+          "height": 64
+        },
+        "HAS Buildings Pack/Towns/Rampart.png": {
+          "bytes": 1924,
+          "sha256": "012acbfc381c4f24b63aaae07813907f9fab67ea4682e710eb89429ab6499e8c",
+          "width": 64,
+          "height": 64
+        },
+        "HAS Buildings Pack/Towns/Stronghold.png": {
+          "bytes": 3773,
+          "sha256": "c5c37c869e99f8fcd509441774a2aad943f2772efee3e2d50b08f0c3be56dfe5",
+          "width": 64,
+          "height": 64
+        },
+        "HAS Buildings Pack/Towns/Tower.png": {
+          "bytes": 2728,
+          "sha256": "b390ad2449131f43eaedef7f5d3d8c09d85e3dac5b3d2073433e38042d54a540",
+          "width": 64,
+          "height": 64
+        },
+        "HAS Buildings Pack/Treasures/DragonCity.png": {
+          "bytes": 1663,
+          "sha256": "4249cd93346323fd66b41e4fa5eb1415c774c0b78d601ab69aab6816de64d4f5",
+          "width": 64,
+          "height": 48
+        },
+        "HAS Buildings Pack/Treasures/Ruins.png": {
+          "bytes": 900,
+          "sha256": "223b26c7e33aa2849879abcd65c026fd3f95250a675890d8920292dff9779e43",
+          "width": 32,
+          "height": 32
+        }
+      }
+    },
+    "creatures": {
+      "source_url": "https://iknowkingrabbit.itch.io/heroic-creature-pack",
+      "archive": {
+        "file": "HAS Creature Pack (v.1.4).zip",
+        "bytes": 356235,
+        "sha256": "dbfa7c649aee11146f6107e4f9fa2045caa5f21310d87f92c64e43707b3c831e"
+      },
+      "license_source": "license.txt",
+      "files": {
+        "castle/archer/sprite_sheet_archer_0_16x16.png": {
+          "bytes": 2022,
+          "sha256": "62837cc5bc7be9f84152627999137d827fbb028cdc5f3d460fe2d4c274963777",
+          "width": 64,
+          "height": 80
+        },
+        "castle/archer/sprite_sheet_archer_1_16x16.png": {
+          "bytes": 895,
+          "sha256": "b4c8eb73d034f2990f9b4ca513cfab007a89a67438d56f831f729b3474da3698",
+          "width": 64,
+          "height": 80
+        },
+        "castle/cavalier/sprite_sheet_cavalier_0_16x16.png": {
+          "bytes": 1247,
+          "sha256": "9e3bed51445b89568b9f6c91cacddeffa6e7b4a914532670661933b4a666a374",
+          "width": 64,
+          "height": 80
+        },
+        "castle/monk/sprite_sheet_monk_0_16x16.png": {
+          "bytes": 904,
+          "sha256": "8b538991eb5b77f7da440f18827e47861231e39fca73714e36f7a880f63b564a",
+          "width": 64,
+          "height": 80
+        },
+        "castle/paladin/sprite_sheet_paladin_0_16x16.png": {
+          "bytes": 1250,
+          "sha256": "8cc2fc140e73d6c2a11880d4bca1e95ac95cb5cecdde288efea6a14dfc51af12",
+          "width": 64,
+          "height": 80
+        },
+        "castle/paladin/sprite_sheet_paladin_1_16x16.png": {
+          "bytes": 1111,
+          "sha256": "ce0c03b078665557f1a1f147ea4e2513951c7a39083da5cc4f8310b557240781",
+          "width": 64,
+          "height": 80
+        },
+        "castle/peasant/sprite_sheet_peasant_0_16x16.png": {
+          "bytes": 1885,
+          "sha256": "f7314687a4fe467f5da36ea711deabe7e7b02a7152564379062cd8ade25ce20d",
+          "width": 64,
+          "height": 80
+        },
+        "castle/pikeman/sprite_sheet_pikeman_1_16x16.png": {
+          "bytes": 1105,
+          "sha256": "da488871628719041222b261b371066a6337fe1450a30d9309033a8c3d55f15c",
+          "width": 64,
+          "height": 80
+        },
+        "castle/swordsman/sprite_sheet_swordsman_0_16x16.png": {
+          "bytes": 1131,
+          "sha256": "3e045d10079890314a003e8c3cbe4e80333f1a3feae544265baccbcec6567db0",
+          "width": 64,
+          "height": 80
+        },
+        "castle/swordsman/sprite_sheet_swordsman_1_16x16.png": {
+          "bytes": 1234,
+          "sha256": "8ac05ecfb2b41e27aeb0f2f2f166f34a4996f1c99eb8bc20e8faa6535bbf636a",
+          "width": 64,
+          "height": 80
+        },
+        "elementals/storm elemental/sprite_sheet_storm_elemental_0_16x16.png": {
+          "bytes": 2236,
+          "sha256": "dea21a280949a027ef31f69ae540bd46095e68f73bddc978027b193a733f83c6",
+          "width": 64,
+          "height": 96
+        },
+        "great elf/druid/sprite_sheet_druid_0_16x16.png": {
+          "bytes": 2013,
+          "sha256": "3302571c0430dbcd4d417ef83df6eeb8cecdb0d73c3d28326da34edf502e5ec3",
+          "width": 64,
+          "height": 96
+        },
+        "great elf/druid/sprite_sheet_druid_1_16x16.png": {
+          "bytes": 2207,
+          "sha256": "d0d12be2e3aec6b5fe9f89738c08d6c7922fd6c0fc54e847fc8f010806ea43f0",
+          "width": 64,
+          "height": 96
+        },
+        "great elf/dwarf/sprite_sheet_dwarf_0_16x16.png": {
+          "bytes": 1533,
+          "sha256": "0e819bf7b75df15d115e279f2dd7b94cbeeef8ad35a83899e5b3f8f5ed965f7d",
+          "width": 64,
+          "height": 80
+        },
+        "great elf/dwarf/sprite_sheet_dwarf_1_16x16.png": {
+          "bytes": 1641,
+          "sha256": "58c5e79b77337218a15a71425ef0cd38d363914954de3fa76613d193e7b411a1",
+          "width": 64,
+          "height": 80
+        },
+        "great elf/hunter/sprite_sheet_hunter_0_16x16.png": {
+          "bytes": 1802,
+          "sha256": "71492a5c92bfd22d1df05d524570a5f3f5b8f4eb06768c7f8452557f2e9a0631",
+          "width": 64,
+          "height": 80
+        },
+        "great elf/hunter/sprite_sheet_hunter_1_16x16.png": {
+          "bytes": 1860,
+          "sha256": "f7b516450451d03cdb6e5bf79a2a56b83fae69be6ee077ded6a5bb2bd4036c80",
+          "width": 64,
+          "height": 80
+        },
+        "great elf/satyr/sprite_sheet_satyr_0_16x16.png": {
+          "bytes": 1744,
+          "sha256": "cb0d159da4b21ff293491b2d01a2f5e80bb3b91a3b6f3e3fc116acf621bb7cac",
+          "width": 64,
+          "height": 80
+        },
+        "great elf/treant/sprite_sheet_treant_1_16x16.png": {
+          "bytes": 2200,
+          "sha256": "b1da2a55a5c734f8f2797c2bdb420de9b43fce375658042885dddaab9965f2ba",
+          "width": 64,
+          "height": 96
+        },
+        "necropolis/death knight/sprite_sheet_death_knight_1_16x16.png": {
+          "bytes": 2140,
+          "sha256": "53fe17d410f9d56265c08158e012a0973d381a0f7264fa25782306e5ac94f7d6",
+          "width": 64,
+          "height": 80
+        },
+        "necropolis/lich/sprite_sheet_lich_0_16x16.png": {
+          "bytes": 2081,
+          "sha256": "62c45884be0d97f58cc8b20196962b25c8298a8b3bb460bc0647087d894d331e",
+          "width": 64,
+          "height": 96
+        },
+        "necropolis/lich/sprite_sheet_lich_1_16x16.png": {
+          "bytes": 1945,
+          "sha256": "7315862f9e7f903a0697ddd5d846d4a9cc7919253d3086ae1cee80f05caee4b7",
+          "width": 64,
+          "height": 96
+        },
+        "necropolis/skeleton/sprite_sheet_skeleton_0_16x16.png": {
+          "bytes": 1258,
+          "sha256": "29adec531d2fa63ac3a31ee6e04085b8c283fb72cce4200f13af5ed83eac3748",
+          "width": 64,
+          "height": 80
+        },
+        "necropolis/spider/sprite_sheet_spider_0_16x16.png": {
+          "bytes": 1104,
+          "sha256": "b7b36a10c3edaf156d84fbf408b78ede373eebe3bd3e06d79bad7df0492fce23",
+          "width": 64,
+          "height": 80
+        },
+        "necropolis/spider/sprite_sheet_spider_1_16x16.png": {
+          "bytes": 1556,
+          "sha256": "10ed86b4ebf24ba1794cd0699d2c54711e97da5d634f76a62da1a112a5d737b0",
+          "width": 64,
+          "height": 80
+        },
+        "necropolis/zombie/sprite_sheet_zombie_0_16x16.png": {
+          "bytes": 1388,
+          "sha256": "8e9c50e95ee096607074d8fa40d3b0f2d3fb9d74f8cb56756702e3743c077f6d",
+          "width": 64,
+          "height": 80
+        },
+        "necropolis/zombie/sprite_sheet_zombie_1_16x16.png": {
+          "bytes": 1517,
+          "sha256": "74a4a2326c85f24e1e29a07b3c6ef3575e53d3d468fbd0b8044bd5026398ed71",
+          "width": 64,
+          "height": 80
+        },
+        "stronghold/goblin/sprite_sheet_goblin_0_16x16.png": {
+          "bytes": 1380,
+          "sha256": "c9007e817effe50267d345158136a3d1219e74601489d1715640910554069edb",
+          "width": 64,
+          "height": 80
+        },
+        "stronghold/shaman/sprite_sheet_shaman_0_16x16.png": {
+          "bytes": 2180,
+          "sha256": "a558a1085fd069322579d77481330c914a9fc831c1fd06b937386fa446e919d8",
+          "width": 64,
+          "height": 96
+        },
+        "stronghold/shaman/sprite_sheet_shaman_1_16x16.png": {
+          "bytes": 2370,
+          "sha256": "37125be306f08d3587c7141d607a417bb1e2b55ab657111a860da3b0ca6c69fe",
+          "width": 64,
+          "height": 96
+        },
+        "wizards/golem/sprite_sheet_golem_0_16x16.png": {
+          "bytes": 1492,
+          "sha256": "4a80f6701f2077c855a2ec20ebd96ddab1cd38f482492a140cd331298d3e0524",
+          "width": 64,
+          "height": 80
+        },
+        "wizards/golem/sprite_sheet_golem_1_16x16.png": {
+          "bytes": 1728,
+          "sha256": "47b02e3fb9ea222f62b63effa25a4fffd1df0910b37697233a0f834473e9ed5b",
+          "width": 64,
+          "height": 80
+        },
+        "wizards/gremlin/sprite_sheet_gremlin_0_16x16.png": {
+          "bytes": 1720,
+          "sha256": "0562568009cb5f06b036b8f59c549ca654d605988dcfc4d27f331f42f7dc1461",
+          "width": 64,
+          "height": 96
+        },
+        "wizards/gremlin/sprite_sheet_gremlin_1_16x16.png": {
+          "bytes": 1802,
+          "sha256": "9fe5600b170c73fdc27bc32c8613dda8469cfbbe40413284300a63dda7cd71d8",
+          "width": 64,
+          "height": 96
+        },
+        "wizards/mage/sprite_sheet_djinn_0_16x16.png": {
+          "bytes": 1872,
+          "sha256": "80a74bcc22f5481d8abe499ba2ec5ad1fb3d2680fc2a64a510ecb17663ef9108",
+          "width": 64,
+          "height": 80
+        }
+      }
+    },
+    "icons": {
+      "source_url": "https://iknowkingrabbit.itch.io/heroic-icon-pack",
+      "archive": {
+        "file": "HAS IconPack (v.1.2).zip",
+        "bytes": 2327860,
+        "sha256": "69ab007b88efe62d6dda7ef22031829c34ecc631159b5c1d9308ca2825dc361d"
+      },
+      "license_source": "license.txt",
+      "files": {
+        "IconPack 1.1/AllItems/FeetSource/FeetOriginal.png": {
+          "bytes": 6069,
+          "sha256": "40f013d230aaf4f2ca4e12da9870c12aae400c703bb569bd543069d4ca2876de",
+          "width": 160,
+          "height": 32
+        },
+        "IconPack 1.1/AllItems/MiscellaneousSource/MiscellaneousOriginal.png": {
+          "bytes": 5541,
+          "sha256": "5184ce6138b9507efe9023ea5e8113c47b60be2b1058b2ab1853fbd81025d4b8",
+          "width": 320,
+          "height": 32
+        },
+        "IconPack 1.1/AllItems/ShieldSource/ShieldOriginal.png": {
+          "bytes": 5882,
+          "sha256": "9d320b94a1ee8a9f2a078ae58e092dda07c82c73de5424bc808298c4722dd325",
+          "width": 160,
+          "height": 32
+        },
+        "IconPack 1.1/AllItems/TorsoSource/TorsoOriginal.png": {
+          "bytes": 6650,
+          "sha256": "f1ad2af593aef3963d9973eb0e578d359dec6b0246e6af4c5c92f6ca121d94d5",
+          "width": 160,
+          "height": 32
+        },
+        "IconPack 1.1/AllItems/WeaponSource/RangedOriginal.png": {
+          "bytes": 4072,
+          "sha256": "974880ed781605a74acdcf01307ad924c8ba0d54d9a34168a5b853428d8455bc",
+          "width": 160,
+          "height": 32
+        },
+        "IconPack 1.1/AllItems/WeaponSource/SwordOriginal.png": {
+          "bytes": 3392,
+          "sha256": "47867d1d43cd396531db81a00b0793ce5865e90ceb3ad6a52bc45deafe339b19",
+          "width": 160,
+          "height": 32
+        },
+        "IconPack 1.2/Skills/Skills.png": {
+          "bytes": 18610,
+          "sha256": "b94a3198829396bb9d774290b23c0c1124396b1f36da6d9658bbd1c3823ea828",
+          "width": 336,
+          "height": 128
+        }
+      }
+    },
+    "magic": {
+      "source_url": "https://iknowkingrabbit.itch.io/has-magic-book",
+      "archive": {
+        "file": "HAS Magic Book (1.1).zip",
+        "bytes": 2049798,
+        "sha256": "be7ac9cb2b82b9f91c29984da5a501bdd0f6c9cb9223c60b763c37c04d6d023d"
+      },
+      "license_source": "https://iknowkingrabbit.itch.io/has-magic-book",
+      "files": {
+        "HAS Magic Book 1.1/Bless/BlessAllFrames.png": {
+          "bytes": 301,
+          "sha256": "743e1a8d528f64eb15d8e9fb552aede4ea72b804120f3b19e496abd9a543c6cb",
+          "width": 96,
+          "height": 24
+        },
+        "HAS Magic Book 1.1/Bless/IconBless.png": {
+          "bytes": 246,
+          "sha256": "6579e8f85524a29702e49b320fa849d6e93195c4716202cc11ae53d6641b65e4",
+          "width": 16,
+          "height": 16
+        },
+        "HAS Magic Book 1.1/Bloodlust/BloodlustAllFrames.png": {
+          "bytes": 517,
+          "sha256": "e8c2ddae03edb8d928d94ae042b5fb50c367fbdc9cc5634b4b915e9d80829516",
+          "width": 96,
+          "height": 24
+        },
+        "HAS Magic Book 1.1/Bloodlust/IconBloodlust.png": {
+          "bytes": 211,
+          "sha256": "c2029f24f5c560fc88a2b79d8eef0d7e0f692c36c21a5716017b40778339ce75",
+          "width": 16,
+          "height": 16
+        },
+        "HAS Magic Book 1.1/Contusion/ContusionAllFrames.png": {
+          "bytes": 564,
+          "sha256": "d62e56a0941d04daea733b24f37905b349ad59a4efea057145886daf37c861c6",
+          "width": 96,
+          "height": 24
+        },
+        "HAS Magic Book 1.1/Contusion/IconContusion.png": {
+          "bytes": 213,
+          "sha256": "61ae714bf4b5bb202063c62a0bc1c5bb6b03a0ed4863b21b1334885fa0e56747",
+          "width": 16,
+          "height": 16
+        },
+        "HAS Magic Book 1.1/Cure/CureAllFrames.png": {
+          "bytes": 267,
+          "sha256": "b150939b84c95b5b679a85ed2fb3bc26ef097d42fa938cc89793256d04ff98eb",
+          "width": 96,
+          "height": 24
+        },
+        "HAS Magic Book 1.1/Cure/IconCure.png": {
+          "bytes": 186,
+          "sha256": "4afe19e2749e7c37e4df5da889199393cd67c8d9114b8d6b2d8cb71eb0844794",
+          "width": 16,
+          "height": 16
+        },
+        "HAS Magic Book 1.1/EnergyBlast/EnergyBlastAllFrames.png": {
+          "bytes": 619,
+          "sha256": "37303446129e9292cda789f1fb0e56f35a04f02f4cf0a24b716a4b7544128de2",
+          "width": 96,
+          "height": 24
+        },
+        "HAS Magic Book 1.1/EnergyBlast/IconEnergyBlast.png": {
+          "bytes": 180,
+          "sha256": "afa041ab1864b98d7ea81eedcdb4dfc7e4e50ae437f382c1d4d42718bbd1e3b1",
+          "width": 16,
+          "height": 16
+        },
+        "HAS Magic Book 1.1/FireBall/FireBallAllFrames.png": {
+          "bytes": 2955,
+          "sha256": "25bdcd64e023ef85aaf66bf4a0ecf42406cbfa0c548550676b62b85c2685b96f",
+          "width": 288,
+          "height": 24
+        },
+        "HAS Magic Book 1.1/FireBall/IconFireBall.png": {
+          "bytes": 182,
+          "sha256": "0e20c8ec5cb3adeff302074991bcb10f626dc3bf591042d4b948cf6cbf121958",
+          "width": 16,
+          "height": 16
+        },
+        "HAS Magic Book 1.1/FrostRing/FrostRingAllFrames.png": {
+          "bytes": 554,
+          "sha256": "4e1ca3e637f04a68b5007ed951e1a391e41ff250cd4a4e5e0590ae57bf9b8927",
+          "width": 96,
+          "height": 24
+        },
+        "HAS Magic Book 1.1/FrostRing/IconFrostRing.png": {
+          "bytes": 216,
+          "sha256": "64fed3d7a9fb656dad4b4f02d3d26ce2dab5e0cbaac23e8b5275381eedf3b889",
+          "width": 16,
+          "height": 16
+        },
+        "HAS Magic Book 1.1/MagicArrow/IconMagicArrow.png": {
+          "bytes": 157,
+          "sha256": "eaa959d2e4ec57cf9ac8660647c9e044ce3f7a2fe7b89f767a92dc52e06ebff2",
+          "width": 16,
+          "height": 16
+        },
+        "HAS Magic Book 1.1/MagicArrow/MagicArrowAllFrames.png": {
+          "bytes": 211,
+          "sha256": "4267c2cf7b5021281f6565e5a9d3bdedc75b979bf034c1468ce6e66947c6dae0",
+          "width": 96,
+          "height": 24
+        },
+        "HAS Magic Book 1.1/Shield/IconShield.png": {
+          "bytes": 249,
+          "sha256": "53e60020d5b4d48703ad22635fe8f4d432371ed83219266b3b3d1f062369f925",
+          "width": 16,
+          "height": 16
+        },
+        "HAS Magic Book 1.1/Shield/ShieldAllFrames.png": {
+          "bytes": 496,
+          "sha256": "907ae7fa180b0f8fd3e8741b4849fb433e7197c440c1e39c25a45c700de7b728",
+          "width": 96,
+          "height": 24
+        }
+      }
+    }
+  }
+}

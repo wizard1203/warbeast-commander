@@ -1,0 +1,28 @@
+extends RefCounted
+## Canonical ordinary-unit abilities. Combat owns eligibility, payment,
+## targeting and settlement; visual metadata never causes extra damage.
+const VERSION := "outposts-seven-unit-armies-v4-elites-r4"
+const CATALOG := {
+	"seal_judicator":{"attack_type":"ARCANE","control_duration_ticks":40,"control_kind":"ROOT","cooldown_ticks":240,"counterplay":"趁封印冷却时突入；定身期间仍可攻击和施法。","damage":160,"delivery":"SINGLE","description":"对180范围内一名敌兵造成160点奥术伤害，并定身2秒。英雄定身时长先乘70%，再计算控制抗性。消耗40法力，冷却12秒。","effect":"DAMAGE_CONTROL","id":"DENY_FORD_SEAL","label":"拒渡封印","mana_cost":40,"material":"COPPER_PAPER_SEAL","max_targets":1,"range":180,"target_kind":"ENEMY_SOLDIER","target_layers":["GROUND","AIR"]},
+	"seal_veil_guard":{"id":"SEAL_PAGE_VEIL","label":"共担誓页","effect":"DAMAGE_LINK","delivery":"ALLY_AREA","mana_cost":40,"cooldown_ticks":280,"duration_ticks":120,"range":160,"radius":160,"max_targets":4,"exclude_self":true,"target_kind":"ALLY_MILITARY","target_layers":["GROUND","AIR"],"redirect_percent":20,"hero_redirect_percent":10,"shared_transfer_cap":240,"source_min_hp":1,"requires_actual_threat":true,"selection_order":["THREAT","MISSING_HP","STABLE_ID"],"material":"COPPER_PAPER_LINK","description":"为160范围内最多4名其他受威胁的正规兵或英雄分担伤害，持续6秒：普通兵20%、英雄10%的伤害在减伤后转给帷卫，每次施法共限240生命，最多使帷卫降至1生命。远离范围、来源阵亡、净化或到期后解除；同类只取最强。消耗40法力，冷却14秒。","counterplay":"转移的伤害由帷卫承受，每次施法共限240生命；将友军与帷卫分开或击杀帷卫可解除。"},
+	"pall_lantern":{"attack_type":"ARCANE","chain_range":85,"cooldown_ticks":200,"counterplay":"分散站位减少连锁目标；净化灼烧可阻止后续伤害和自疗。","delivery":"CHAIN","description":"向190范围内一名敌兵发出烬链，最多连锁3名敌兵，各在6秒内承受总计100点奥术灼烧。按造成的持续伤害15%回复自身生命，无法从建筑吸取。消耗40法力，冷却10秒。","dot_drain_percent":15,"dot_duration_ticks":120,"dot_kind":"BURN","dot_total":100,"effect":"DOT","id":"LONELY_NAME_EMBER_CHAIN","label":"孤名烬链","mana_cost":40,"material":"ASH_LANTERN_THREAD","max_targets":3,"range":190,"target_kind":"ENEMY_SOLDIER","target_layers":["GROUND","AIR"]},
+	"induction_weaver":{"attack_type":"ARCANE","chain_range":75,"cooldown_ticks":200,"counterplay":"单位间距超过75可阻止继续连锁。","damage":120,"delivery":"CHAIN","description":"对170范围内主目标造成120点奥术伤害，并以75跳距连锁最多2名次目标，各造成60点伤害。消耗40法力，冷却10秒。","effect":"DAMAGE","id":"PHASE_DISCHARGE","label":"相位卸荷","mana_cost":40,"material":"INDUCTION_ARC","max_targets":3,"range":170,"secondary_damage":60,"target_kind":"ENEMY_SOLDIER","target_layers":["GROUND","AIR"]},
+	"dew_thorn_scribe":{"attack_type":"ARCANE","control_duration_ticks":50,"control_kind":"ROOT","cooldown_ticks":240,"counterplay":"飞行单位不受芽阵影响；分散站位或净化可限制效果。","delivery":"AREA","description":"在180施法距离内展开半径70的芽阵，最多使3名地面敌兵定身2.5秒，并各在6秒内承受总计54点奥术毒伤。消耗40法力，冷却12秒。","dot_duration_ticks":120,"dot_kind":"POISON","dot_total":54,"effect":"CONTROL_DOT","id":"DORMANT_BUD_PATH","label":"眠芽封径","mana_cost":40,"material":"DEW_BUD_ROOT","max_targets":3,"radius":70,"range":180,"target_kind":"ENEMY_SOLDIER","target_layers":["GROUND"]},
+	"canopy_glasswing":{"attack_speed_percent":35,"cooldown_ticks":200,"counterplay":"拉开距离等待攻速强化结束，或用对空火力集中攻击。","delivery":"SELF_BUFF","description":"交战时提高自身攻速35%，持续5秒。只强化攻击频率，不提供减伤、隐身或闪避。消耗25法力，冷却10秒。","duration_ticks":100,"effect":"ATTACK_SPEED_BUFF","id":"SWIFT_WING_RETURN","label":"急翎折返","mana_cost":25,"material":"GLASS_LEAF_FEATHER","max_targets":1,"range":180,"target_kind":"SELF"},
+	"ridge_axe_guard":{"attack_speed_percent":20,"cooldown_ticks":240,"counterplay":"斧卫缺少控制，拉开距离可消耗其强化时间。","delivery":"SELF_BUFF","description":"近战交战时提高自身攻速20%，持续6秒。消耗25法力，冷却12秒。","duration_ticks":120,"effect":"ATTACK_SPEED_BUFF","id":"KILN_BACK_FERVOR","label":"炉背奋击","mana_cost":25,"material":"BASALT_AXE_EMBER","max_targets":1,"range":50,"target_kind":"SELF"},
+	"cinder_kiln_acolyte":{"attack_type":"ARCANE","cooldown_ticks":280,"counterplay":"净化可终止灼烧；趁其低机动快速突入，减少持续受伤。","delivery":"SINGLE","description":"使170范围内一名敌兵在8秒内承受总计240点奥术灼烧，并减速20%、持续8秒。对英雄的减速时长先乘70%，灼烧时长不变。消耗45法力，冷却14秒。","dot_duration_ticks":160,"dot_kind":"BURN","dot_total":240,"effect":"DOT_SLOW","id":"FROST_KILN_EMBER","label":"凝焰","mana_cost":45,"material":"FROST_BRICK_EMBER","max_targets":1,"range":170,"status_duration_ticks":160,"status_kind":"SLOW","status_power":20,"target_kind":"ENEMY_SOLDIER","target_layers":["GROUND","AIR"]},
+	"resonance_driller":{"attack_type":"ARCANE","cooldown_ticks":240,"counterplay":"横向分散可减少命中；飞行单位不受地面声束影响。","damage":160,"delivery":"LINE","description":"发出长170、宽30的地面声束，最多命中3名敌兵：主目标160点、次目标各80点奥术伤害。消耗45法力，冷却12秒。","effect":"DAMAGE","id":"THREEFOLD_COLLAPSE_NOTE","label":"三叠崩音","line_width":30,"mana_cost":45,"material":"SHALE_RESONANCE_FORK","max_targets":3,"range":170,"secondary_damage":80,"target_kind":"ENEMY_SOLDIER","target_layers":["GROUND"]},
+}
+const BASIC_PROCS := {
+	"grave_chain_guard":{"description":"普攻命中敌兵后使其减速25%，持续2.5秒；内置冷却8秒。","effect":"SLOW","id":"NAME_SEAL_HOOK","internal_cooldown_ticks":160,"label":"封名钩","material":"BONE_CHAIN_HOOK","status_duration_ticks":50,"status_kind":"SLOW","status_power":25,"target_kind":"ENEMY_SOLDIER"},
+	"deep_fault_carapace":{"attack_type":"IMPACT","cap_includes_primary":true,"damage":64,"delivery":"LINE","description":"普攻接敌距离75，沿长240、宽32的地面直线穿透：主目标64点、最多3名次目标各16点基础伤害。每名目标分别计算护甲，穿透命中不会再次扩散。","id":"FAULT_PIERCING_RIDGE","label":"裂脊穿岩","line_width":32,"material":"LAYERED_SHALE_FAULT","max_targets":4,"range":240,"recursive":false,"secondary_damage":16,"target_layers":["GROUND"]},
+}
+
+static func ability_for(unit_type: String) -> Dictionary:
+	return CATALOG.get(unit_type,{}).duplicate(true)
+
+static func proc_for(unit_type: String) -> Dictionary:
+	return BASIC_PROCS.get(unit_type,{}).duplicate(true)
+
+static func all() -> Dictionary:
+	return {"version":VERSION,"abilities":CATALOG.duplicate(true),"basic_procs":BASIC_PROCS.duplicate(true)}

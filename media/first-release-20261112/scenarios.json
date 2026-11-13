@@ -1,0 +1,340 @@
+{
+  "schema": "first-release-arena-scenes/v1",
+  "run_id": "first-release-20261112",
+  "authority": {
+    "source_project": "../warbeast-commander-outposts",
+    "catalog": "../warbeast-commander-outposts/evidence/outposts-v4/r20-player-copy/02c-after-catalog.json",
+    "catalog_sha256": "991365037c6035875e98dbc86877383c937b4e9ccc0498db1bd0cb6d0200b5cc",
+    "config_interface": "src/simulation/strategic_hero_arena_runner.gd:configure",
+    "price_rule": "单位使用cost.MATERIAL；装备使用Items.total_cost，即合成费用加缺少的全部组件。英雄招募与经验由竞技场赠予，不计为正常对局支出。",
+    "budget_scope": "展示配置的实际投入，不表示战力相等或竞技平衡结论。"
+  },
+  "recording": {
+    "intro_seconds": 12,
+    "post_result_statistics_seconds": 10,
+    "simulation_time_scale": 1,
+    "limit_seconds": 300,
+    "end_policy": "录至真实结束；到达正式时限仍未结束则保留TIME_BOUND和未决，不补判胜者。",
+    "statistics_policy": "结束后显示真实全军统计至少10秒，滚动查看普通兵与英雄的伤害、承伤、治疗和存活情况。",
+    "narration_backend": "root选择并核验许可的本地中文TTS；不调用macOS系统语音，不下载或合成模型。",
+    "subtitle_policy": "intro.sentences是配音与字幕共同的逐字文本；字幕时间以实际合成句长校准。"
+  },
+  "normal_match_intro": {
+    "id": "normal-match",
+    "title": "边境交锋",
+    "sentences": [
+      "誓图与铆炉在边境交锋。",
+      "两名困难电脑从正常资源起步，观察建造、占领与军团交锋。"
+    ],
+    "edit_policy": "可剪为开局、发展占领、主要交战和收尾；每次跳切保留实际对局时间标识。"
+  },
+  "scenes": [
+    {
+      "id": "01-human-troops",
+      "category": "TROOP_ONLY",
+      "title": "誓图兵种对决 · 盾列迎弩阵",
+      "intro": {
+        "seconds": 12,
+        "sentences": [
+          "誓图同族交锋：六名合页卫，对上四名明契弩兵。",
+          "双方各用九百金币，看盾列能否贴近弩阵。"
+        ]
+      },
+      "side_summary": {
+        "PLAYER": {
+          "name": "金方 · 盾列",
+          "faction": "誓图",
+          "heroes": [],
+          "troops": [
+            {"id": "hinge_guard", "name": "合页卫", "count": 6, "unit_gold": 150, "gold": 900, "population": 12}
+          ],
+          "troop_count": 6,
+          "troop_gold": 900,
+          "item_gold": 0,
+          "total_gold": 900
+        },
+        "AI": {
+          "name": "绛红方 · 弩阵",
+          "faction": "誓图",
+          "heroes": [],
+          "troops": [
+            {"id": "bright_crossbow", "name": "明契弩兵", "count": 4, "unit_gold": 225, "gold": 900, "population": 8}
+          ],
+          "troop_count": 4,
+          "troop_gold": 900,
+          "item_gold": 0,
+          "total_gold": 900
+        }
+      },
+      "config": {
+        "mode": "UNIT_VS_TROOPS",
+        "seed": 26111201,
+        "limit_seconds": 300,
+        "auto_consumables": false,
+        "sides": {
+          "PLAYER": {"faction_id": "HUMAN", "heroes": [], "troops": [{"unit_type": "hinge_guard", "count": 6}]},
+          "AI": {"faction_id": "HUMAN", "heroes": [], "troops": [{"unit_type": "bright_crossbow", "count": 4}]}
+        }
+      }
+    },
+    {
+      "id": "02-machine-troops",
+      "category": "TROOP_ONLY",
+      "title": "铆炉兵种对决 · 盾枪试炮",
+      "intro": {
+        "seconds": 12,
+        "sentences": [
+          "铆炉试炮：两名铆钉卫和两名碎晶枪手，对阵两辆齿轮战车。",
+          "双方各九百金币，盾枪掩护迎战远程炮火。"
+        ]
+      },
+      "side_summary": {
+        "PLAYER": {
+          "name": "金方 · 盾枪队",
+          "faction": "铆炉",
+          "heroes": [],
+          "troops": [
+            {"id": "rivet_guard", "name": "铆钉卫", "count": 2, "unit_gold": 175, "gold": 350, "population": 4},
+            {"id": "shard_gunner", "name": "碎晶枪手", "count": 2, "unit_gold": 275, "gold": 550, "population": 6}
+          ],
+          "troop_count": 4,
+          "troop_gold": 900,
+          "item_gold": 0,
+          "total_gold": 900
+        },
+        "AI": {
+          "name": "绛红方 · 炮车队",
+          "faction": "铆炉",
+          "heroes": [],
+          "troops": [
+            {"id": "gear_engine", "name": "齿轮战车", "count": 2, "unit_gold": 450, "gold": 900, "population": 10}
+          ],
+          "troop_count": 2,
+          "troop_gold": 900,
+          "item_gold": 0,
+          "total_gold": 900
+        }
+      },
+      "config": {
+        "mode": "UNIT_VS_TROOPS",
+        "seed": 26111202,
+        "limit_seconds": 300,
+        "auto_consumables": false,
+        "sides": {
+          "PLAYER": {"faction_id": "MACHINE", "heroes": [], "troops": [{"unit_type": "rivet_guard", "count": 2}, {"unit_type": "shard_gunner", "count": 2}]},
+          "AI": {"faction_id": "MACHINE", "heroes": [], "troops": [{"unit_type": "gear_engine", "count": 2}]}
+        }
+      }
+    },
+    {
+      "id": "03-forest-heroes",
+      "category": "HERO_ONLY",
+      "title": "织叶英雄单挑 · 嫁枝对空角",
+      "intro": {
+        "seconds": 12,
+        "sentences": [
+          "织叶单挑：八级间穗对阵八级巡苔。",
+          "两人技能均为三、三、二级，不带装备补给，看嫁枝毒刃迎战空角挑枝。"
+        ]
+      },
+      "side_summary": {
+        "PLAYER": {"name": "金方 · 间穗", "faction": "织叶", "heroes": [{"id": "THORN_REAVER", "name": "间穗", "title": "嫁枝刃客", "level": 8, "skill_ranks": [3, 3, 2], "item_gold": 0}], "troops": [], "troop_count": 0, "troop_gold": 0, "item_gold": 0, "total_gold": 0},
+        "AI": {"name": "绛红方 · 巡苔", "faction": "织叶", "heroes": [{"id": "ANTLER_WARRIOR", "name": "巡苔", "title": "空角守猎", "level": 8, "skill_ranks": [3, 3, 2], "item_gold": 0}], "troops": [], "troop_count": 0, "troop_gold": 0, "item_gold": 0, "total_gold": 0}
+      },
+      "config": {
+        "mode": "DUEL",
+        "seed": 26111203,
+        "limit_seconds": 300,
+        "auto_consumables": false,
+        "sides": {
+          "PLAYER": {"faction_id": "FOREST", "heroes": [{"archetype": "THORN_REAVER", "level": 8, "skill_ranks": [3, 3, 2], "equipment": [], "consumables": []}], "troops": []},
+          "AI": {"faction_id": "FOREST", "heroes": [{"archetype": "ANTLER_WARRIOR", "level": 8, "skill_ranks": [3, 3, 2], "equipment": [], "consumables": []}], "troops": []}
+        }
+      }
+    },
+    {
+      "id": "04-human-heroes",
+      "category": "HERO_ONLY",
+      "title": "誓图英雄单挑 · 星契对断页",
+      "intro": {
+        "seconds": 12,
+        "sentences": [
+          "誓图单挑：八级星澜对阵八级凭霄。",
+          "两人技能均为三、三、二级，不带装备补给，看星火霜契如何应对近身剑锋。"
+        ]
+      },
+      "side_summary": {
+        "PLAYER": {"name": "金方 · 星澜", "faction": "誓图", "heroes": [{"id": "ARCANIST", "name": "星澜", "title": "星契术师", "level": 8, "skill_ranks": [3, 3, 2], "item_gold": 0}], "troops": [], "troop_count": 0, "troop_gold": 0, "item_gold": 0, "total_gold": 0},
+        "AI": {"name": "绛红方 · 凭霄", "faction": "誓图", "heroes": [{"id": "OATH_REAVER", "name": "凭霄", "title": "断页剑师", "level": 8, "skill_ranks": [3, 3, 2], "item_gold": 0}], "troops": [], "troop_count": 0, "troop_gold": 0, "item_gold": 0, "total_gold": 0}
+      },
+      "config": {
+        "mode": "DUEL",
+        "seed": 26111204,
+        "limit_seconds": 300,
+        "auto_consumables": false,
+        "sides": {
+          "PLAYER": {"faction_id": "HUMAN", "heroes": [{"archetype": "ARCANIST", "level": 8, "skill_ranks": [3, 3, 2], "equipment": [], "consumables": []}], "troops": []},
+          "AI": {"faction_id": "HUMAN", "heroes": [{"archetype": "OATH_REAVER", "level": 8, "skill_ranks": [3, 3, 2], "equipment": [], "consumables": []}], "troops": []}
+        }
+      }
+    },
+    {
+      "id": "05-machine-legions",
+      "category": "HERO_AND_TROOPS",
+      "title": "铆炉军团对决 · 炉盾与冲刃",
+      "intro": {
+        "seconds": 12,
+        "sentences": [
+          "铆炉军团内战：每方三名英雄、十二名士兵。",
+          "八级主将配两名五级同伴，携带装备补给，看盾枪阵迎战战车。"
+        ]
+      },
+      "side_summary": {
+        "PLAYER": {
+          "name": "金方 · 炉盾军团",
+          "faction": "铆炉",
+          "heroes": [
+            {"id": "COIL_WARDEN", "name": "铆冠", "title": "炉盾监工", "role": "坦克", "level": 8, "skill_ranks": [3, 3, 2], "item_gold": 565},
+            {"id": "GEAR_HUNTER", "name": "齿影", "title": "齿轮猎手", "role": "物理射手", "level": 5, "skill_ranks": [2, 2, 1], "item_gold": 585},
+            {"id": "VOLT_WEAVER", "name": "脉澜", "title": "电弧织师", "role": "法师", "level": 5, "skill_ranks": [2, 2, 1], "item_gold": 605}
+          ],
+          "troops": [
+            {"id": "rivet_guard", "name": "铆钉卫", "count": 4, "unit_gold": 175, "gold": 700, "population": 8},
+            {"id": "shard_gunner", "name": "碎晶枪手", "count": 4, "unit_gold": 275, "gold": 1100, "population": 12},
+            {"id": "repair_drone", "name": "维修机", "count": 2, "unit_gold": 240, "gold": 480, "population": 6},
+            {"id": "induction_weaver", "name": "感应织流机", "count": 2, "unit_gold": 310, "gold": 620, "population": 6}
+          ],
+          "troop_count": 12,
+          "troop_gold": 2900,
+          "item_gold": 1755,
+          "total_gold": 4655
+        },
+        "AI": {
+          "name": "绛红方 · 冲刃军团",
+          "faction": "铆炉",
+          "heroes": [
+            {"id": "RIVET_LEGIONARY", "name": "工七", "title": "铆阵班长", "role": "战士", "level": 8, "skill_ranks": [3, 3, 2], "item_gold": 565},
+            {"id": "PISTON_FENCER", "name": "尺九", "title": "偏心冲刃师", "role": "近战技能", "level": 5, "skill_ranks": [2, 2, 1], "item_gold": 585},
+            {"id": "FLUX_BOMBARDIER", "name": "弧轧", "title": "磁通炮术士", "role": "法师", "level": 5, "skill_ranks": [2, 2, 1], "item_gold": 605}
+          ],
+          "troops": [
+            {"id": "rivet_guard", "name": "铆钉卫", "count": 5, "unit_gold": 175, "gold": 875, "population": 10},
+            {"id": "shard_gunner", "name": "碎晶枪手", "count": 2, "unit_gold": 275, "gold": 550, "population": 6},
+            {"id": "gear_engine", "name": "齿轮战车", "count": 1, "unit_gold": 450, "gold": 450, "population": 5},
+            {"id": "repair_drone", "name": "维修机", "count": 2, "unit_gold": 240, "gold": 480, "population": 6},
+            {"id": "induction_weaver", "name": "感应织流机", "count": 2, "unit_gold": 310, "gold": 620, "population": 6}
+          ],
+          "troop_count": 12,
+          "troop_gold": 2975,
+          "item_gold": 1755,
+          "total_gold": 4730
+        }
+      },
+      "config": {
+        "mode": "MIXED",
+        "seed": 26111205,
+        "limit_seconds": 300,
+        "auto_consumables": true,
+        "sides": {
+          "PLAYER": {
+            "faction_id": "MACHINE",
+            "heroes": [
+              {"archetype": "COIL_WARDEN", "level": 8, "skill_ranks": [3, 3, 2], "equipment": ["IRON_BLADE", "WARD_MAIL", "VITAL_CHARM", "MANA_CRYSTAL"], "consumables": ["POTION", "GUARD_DRAUGHT"]},
+              {"archetype": "GEAR_HUNTER", "level": 5, "skill_ranks": [2, 2, 1], "equipment": ["IRON_BLADE", "SWIFT_GLOVES", "LONGSIGHT", "VITAL_CHARM"], "consumables": ["POTION", "ASSAULT_DRAUGHT"]},
+              {"archetype": "VOLT_WEAVER", "level": 5, "skill_ranks": [2, 2, 1], "equipment": ["SPELL_LENS", "MANA_CRYSTAL", "MANA_BEAD", "VITAL_CHARM"], "consumables": ["MANA_POTION", "GUARD_DRAUGHT"]}
+            ],
+            "troops": [{"unit_type": "rivet_guard", "count": 4}, {"unit_type": "shard_gunner", "count": 4}, {"unit_type": "repair_drone", "count": 2}, {"unit_type": "induction_weaver", "count": 2}]
+          },
+          "AI": {
+            "faction_id": "MACHINE",
+            "heroes": [
+              {"archetype": "RIVET_LEGIONARY", "level": 8, "skill_ranks": [3, 3, 2], "equipment": ["IRON_BLADE", "WARD_MAIL", "VITAL_CHARM", "MANA_CRYSTAL"], "consumables": ["POTION", "GUARD_DRAUGHT"]},
+              {"archetype": "PISTON_FENCER", "level": 5, "skill_ranks": [2, 2, 1], "equipment": ["IRON_BLADE", "SWIFT_GLOVES", "VITAL_CHARM", "MANA_CRYSTAL"], "consumables": ["POTION", "ASSAULT_DRAUGHT"]},
+              {"archetype": "FLUX_BOMBARDIER", "level": 5, "skill_ranks": [2, 2, 1], "equipment": ["SPELL_LENS", "MANA_CRYSTAL", "MANA_BEAD", "VITAL_CHARM"], "consumables": ["MANA_POTION", "GUARD_DRAUGHT"]}
+            ],
+            "troops": [{"unit_type": "rivet_guard", "count": 5}, {"unit_type": "shard_gunner", "count": 2}, {"unit_type": "gear_engine", "count": 1}, {"unit_type": "repair_drone", "count": 2}, {"unit_type": "induction_weaver", "count": 2}]
+          }
+        }
+      }
+    },
+    {
+      "id": "06-forest-legions",
+      "category": "HERO_AND_TROOPS",
+      "title": "织叶军团对决 · 根藤与鹿骑",
+      "intro": {
+        "seconds": 12,
+        "sentences": [
+          "织叶军团内战：每方三名英雄、十二名士兵。",
+          "八级主将配两名五级同伴，携带装备补给，看根藤弓阵迎战鹿骑突击。"
+        ]
+      },
+      "side_summary": {
+        "PLAYER": {
+          "name": "金方 · 根藤军团",
+          "faction": "织叶",
+          "heroes": [
+            {"id": "VINE_WARDEN", "name": "枝垒", "title": "藤垒守望", "role": "坦克", "level": 8, "skill_ranks": [3, 3, 2], "item_gold": 565},
+            {"id": "WIND_COURIER", "name": "风翎", "title": "风叶巡狩", "role": "物理射手", "level": 5, "skill_ranks": [2, 2, 1], "item_gold": 585},
+            {"id": "LEAF_SEER", "name": "芽灯", "title": "根语祭师", "role": "法师", "level": 5, "skill_ranks": [2, 2, 1], "item_gold": 605}
+          ],
+          "troops": [
+            {"id": "vine_guard", "name": "藤卫", "count": 4, "unit_gold": 150, "gold": 600, "population": 8},
+            {"id": "leaf_archer", "name": "叶弓手", "count": 4, "unit_gold": 200, "gold": 800, "population": 8},
+            {"id": "root_mender", "name": "根织者", "count": 2, "unit_gold": 225, "gold": 450, "population": 6},
+            {"id": "dew_thorn_scribe", "name": "凝露芽师", "count": 2, "unit_gold": 285, "gold": 570, "population": 6}
+          ],
+          "troop_count": 12,
+          "troop_gold": 2420,
+          "item_gold": 1755,
+          "total_gold": 4175
+        },
+        "AI": {
+          "name": "绛红方 · 鹿骑军团",
+          "faction": "织叶",
+          "heroes": [
+            {"id": "ANTLER_WARRIOR", "name": "巡苔", "title": "空角守猎", "role": "战士", "level": 8, "skill_ranks": [3, 3, 2], "item_gold": 565},
+            {"id": "THORN_REAVER", "name": "间穗", "title": "嫁枝刃客", "role": "近战技能", "level": 5, "skill_ranks": [2, 2, 1], "item_gold": 585},
+            {"id": "POLLEN_COMET", "name": "流穗", "title": "流萤织星者", "role": "法师", "level": 5, "skill_ranks": [2, 2, 1], "item_gold": 605}
+          ],
+          "troops": [
+            {"id": "vine_guard", "name": "藤卫", "count": 5, "unit_gold": 150, "gold": 750, "population": 10},
+            {"id": "leaf_archer", "name": "叶弓手", "count": 3, "unit_gold": 200, "gold": 600, "population": 6},
+            {"id": "stag_rider", "name": "鹿骑兵", "count": 2, "unit_gold": 340, "gold": 680, "population": 8},
+            {"id": "root_mender", "name": "根织者", "count": 1, "unit_gold": 225, "gold": 225, "population": 3},
+            {"id": "dew_thorn_scribe", "name": "凝露芽师", "count": 1, "unit_gold": 285, "gold": 285, "population": 3}
+          ],
+          "troop_count": 12,
+          "troop_gold": 2540,
+          "item_gold": 1755,
+          "total_gold": 4295
+        }
+      },
+      "config": {
+        "mode": "MIXED",
+        "seed": 26111206,
+        "limit_seconds": 300,
+        "auto_consumables": true,
+        "sides": {
+          "PLAYER": {
+            "faction_id": "FOREST",
+            "heroes": [
+              {"archetype": "VINE_WARDEN", "level": 8, "skill_ranks": [3, 3, 2], "equipment": ["IRON_BLADE", "WARD_MAIL", "VITAL_CHARM", "MANA_CRYSTAL"], "consumables": ["POTION", "GUARD_DRAUGHT"]},
+              {"archetype": "WIND_COURIER", "level": 5, "skill_ranks": [2, 2, 1], "equipment": ["IRON_BLADE", "SWIFT_GLOVES", "LONGSIGHT", "VITAL_CHARM"], "consumables": ["POTION", "ASSAULT_DRAUGHT"]},
+              {"archetype": "LEAF_SEER", "level": 5, "skill_ranks": [2, 2, 1], "equipment": ["SPELL_LENS", "MANA_CRYSTAL", "MANA_BEAD", "VITAL_CHARM"], "consumables": ["MANA_POTION", "GUARD_DRAUGHT"]}
+            ],
+            "troops": [{"unit_type": "vine_guard", "count": 4}, {"unit_type": "leaf_archer", "count": 4}, {"unit_type": "root_mender", "count": 2}, {"unit_type": "dew_thorn_scribe", "count": 2}]
+          },
+          "AI": {
+            "faction_id": "FOREST",
+            "heroes": [
+              {"archetype": "ANTLER_WARRIOR", "level": 8, "skill_ranks": [3, 3, 2], "equipment": ["IRON_BLADE", "WARD_MAIL", "VITAL_CHARM", "MANA_CRYSTAL"], "consumables": ["POTION", "GUARD_DRAUGHT"]},
+              {"archetype": "THORN_REAVER", "level": 5, "skill_ranks": [2, 2, 1], "equipment": ["IRON_BLADE", "SWIFT_GLOVES", "VITAL_CHARM", "MANA_CRYSTAL"], "consumables": ["POTION", "ASSAULT_DRAUGHT"]},
+              {"archetype": "POLLEN_COMET", "level": 5, "skill_ranks": [2, 2, 1], "equipment": ["SPELL_LENS", "MANA_CRYSTAL", "MANA_BEAD", "VITAL_CHARM"], "consumables": ["MANA_POTION", "GUARD_DRAUGHT"]}
+            ],
+            "troops": [{"unit_type": "vine_guard", "count": 5}, {"unit_type": "leaf_archer", "count": 3}, {"unit_type": "stag_rider", "count": 2}, {"unit_type": "root_mender", "count": 1}, {"unit_type": "dew_thorn_scribe", "count": 1}]
+          }
+        }
+      }
+    }
+  ]
+}

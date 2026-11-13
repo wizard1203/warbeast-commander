@@ -1,0 +1,2499 @@
+{
+  "schema": "m76.motion-b-catalog/v1",
+  "version": "m76-faction-motion-b-v1",
+  "authority": "src/presentation/heroic_faction_motion_b_m76.gd",
+  "scope": "42 finite presentation identities. Timing and source-code geometry refinement, not combat, new AI raster illustrations, SFX or FPS certification.",
+  "identities": {
+    "abyss_devourer": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.28,
+        0.1,
+        0.18,
+        0.44
+      ],
+      "body": "HEAVY_MULTILEG",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 21.85,
+      "cast_holds": [
+        0.3,
+        0.16,
+        0.18,
+        0.36
+      ],
+      "faction_id": "UNDERGROUND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "abyss_devourer",
+      "name": "深渊噬兽",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "巨型追猎兽颚板先张再合，喉护回位不伪造处决事件。",
+      "timing_family": "jaw_close",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 19,
+      "weapon": "forked_jaw"
+    },
+    "chitin_guard": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.3,
+        0.12,
+        0.22,
+        0.36
+      ],
+      "body": "MULTILEG",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 13.8,
+      "cast_holds": [
+        0.32,
+        0.16,
+        0.2,
+        0.32
+      ],
+      "faction_id": "UNDERGROUND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "chitin_guard",
+      "name": "甲壳卫",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "护送队前足支撑再前推甲壳，回收时短顿不假造击退。",
+      "timing_family": "shell_push",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 12,
+      "weapon": "chitin_ram"
+    },
+    "echo_shooter": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.28,
+        0.12,
+        0.12,
+        0.48
+      ],
+      "body": "MULTILEG",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 12.65,
+      "cast_holds": [
+        0.28,
+        0.14,
+        0.22,
+        0.36
+      ],
+      "faction_id": "UNDERGROUND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "echo_shooter",
+      "name": "回声射手",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "报距员先张横叉声架再送实物晶矢，不能靠虚影伪造额外箭。",
+      "timing_family": "fork_release",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 11,
+      "weapon": "reed_dart_fork"
+    },
+    "elder_treant": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.3,
+        0.1,
+        0.18,
+        0.42
+      ],
+      "body": "TREANT",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 25.3,
+      "cast_holds": [
+        0.34,
+        0.14,
+        0.18,
+        0.34
+      ],
+      "faction_id": "FOREST",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "elder_treant",
+      "name": "古根灵卫",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "分杈厚肩先承重再回根，重击后留明显收势。",
+      "timing_family": "root_weight",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 22,
+      "weapon": "trunk_crook"
+    },
+    "fire_dragon": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.3,
+        0.12,
+        0.22,
+        0.36
+      ],
+      "body": "DRAGON",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 20.7,
+      "cast_holds": [
+        0.34,
+        0.14,
+        0.24,
+        0.28
+      ],
+      "faction_id": "HIGHLAND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "fire_dragon",
+      "name": "火龙",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "火种守护者用承翼和收颈表达重量；不改变真实飞行层。",
+      "timing_family": "breath_weight",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 18,
+      "weapon": "kiln_breath"
+    },
+    "hero:ANTLER_WARRIOR": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.28,
+        0.12,
+        0.2,
+        0.4
+      ],
+      "body": "BIPED",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 16.1,
+      "cast_holds": [
+        0.24,
+        0.22,
+        0.2,
+        0.34
+      ],
+      "faction_id": "FOREST",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "hero:ANTLER_WARRIOR",
+      "name": "巡苔",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "守猎者以弧枝盾接重，再把短矛收回空角头架下。",
+      "timing_family": "shield_brace",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 14,
+      "weapon": "branch_shield_spear"
+    },
+    "hero:BASALT_CHAMPION": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.36,
+        0.1,
+        0.18,
+        0.36
+      ],
+      "body": "HEAVY_BIPED",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 23,
+      "cast_holds": [
+        0.36,
+        0.14,
+        0.2,
+        0.3
+      ],
+      "faction_id": "HIGHLAND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "hero:BASALT_CHAMPION",
+      "name": "层祁",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "试坝武卫的错层岩肩先承重，横口重槌落后重新合架。",
+      "timing_family": "stone_weight",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 20,
+      "weapon": "basalt_test_maul"
+    },
+    "hero:BLOOM_GUIDE": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.24,
+        0.2,
+        0.18,
+        0.38
+      ],
+      "body": "ROBED",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 18.4,
+      "cast_holds": [
+        0.28,
+        0.24,
+        0.16,
+        0.32
+      ],
+      "faction_id": "FOREST",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "hero:BLOOM_GUIDE",
+      "name": "花汐",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "量水盘与贝杯缓倾再收，盐粒落下并不额外治疗。",
+      "timing_family": "cup_tilt",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 16,
+      "weapon": "saltwater_shell_cup"
+    },
+    "hero:CARAPACE_WARRIOR": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.3,
+        0.12,
+        0.22,
+        0.36
+      ],
+      "body": "HEAVY_MULTILEG",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 18.4,
+      "cast_holds": [
+        0.32,
+        0.16,
+        0.2,
+        0.32
+      ],
+      "faction_id": "UNDERGROUND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "hero:CARAPACE_WARRIOR",
+      "name": "阙甲",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "双层通气扇盖先撑巢再收角，四足承重与螳形快切区分。",
+      "timing_family": "shell_push",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 16,
+      "weapon": "vented_shell_horn"
+    },
+    "hero:ECHO_BINDER": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.3,
+        0.12,
+        0.16,
+        0.42
+      ],
+      "body": "MULTILEG",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 14.95,
+      "cast_holds": [
+        0.32,
+        0.12,
+        0.22,
+        0.34
+      ],
+      "faction_id": "UNDERGROUND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "hero:ECHO_BINDER",
+      "name": "回声",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "偏心晶耳短暂试音再送窄晶矛，保留杂乱回声而非统一炮击。",
+      "timing_family": "echo_cast",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 13,
+      "weapon": "cracked_resonance_staff"
+    },
+    "hero:EMBER_CAVALIER": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.34,
+        0.14,
+        0.08,
+        0.44
+      ],
+      "body": "BIPED",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 16.1,
+      "cast_holds": [
+        0.32,
+        0.12,
+        0.18,
+        0.38
+      ],
+      "faction_id": "HIGHLAND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "hero:EMBER_CAVALIER",
+      "name": "焰脊",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "现役身份是三矛架和投矛器：长拉短掷，绝非旧近战长刃。",
+      "timing_family": "javelin_release",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 14,
+      "weapon": "furnace_javelin_thrower"
+    },
+    "hero:HEARTH_KEEPER": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.28,
+        0.18,
+        0.18,
+        0.36
+      ],
+      "body": "STOCKY_BIPED",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 19.55,
+      "cast_holds": [
+        0.3,
+        0.2,
+        0.18,
+        0.32
+      ],
+      "faction_id": "HIGHLAND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "hero:HEARTH_KEEPER",
+      "name": "炉暖",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "流动面炉主低炉勺先托举再送出，不能画成直接敌人受疗。",
+      "timing_family": "oven_lift",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 17,
+      "weapon": "oven_peel"
+    },
+    "hero:LEAF_SEER": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.24,
+        0.12,
+        0.16,
+        0.48
+      ],
+      "body": "ROBED",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 17.25,
+      "cast_holds": [
+        0.3,
+        0.12,
+        0.2,
+        0.38
+      ],
+      "faction_id": "FOREST",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "hero:LEAF_SEER",
+      "name": "芽灯",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "检视失败样本后开种匣，送核轻、合匣稍慢。",
+      "timing_family": "seed_flick",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 15,
+      "weapon": "graft_seed_case"
+    },
+    "hero:MYCELIAL_CATALYST": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.28,
+        0.16,
+        0.18,
+        0.38
+      ],
+      "body": "MULTILEG",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 13.8,
+      "cast_holds": [
+        0.34,
+        0.18,
+        0.18,
+        0.3
+      ],
+      "faction_id": "UNDERGROUND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "hero:MYCELIAL_CATALYST",
+      "name": "沫蚀",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "两只釉面酸囊先压后送，四足矮身不随滴管挥动改变脚锚。",
+      "timing_family": "acid_cast",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 12,
+      "weapon": "ceramic_acid_dropper"
+    },
+    "hero:OBSIDIAN_CANTOR": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.28,
+        0.16,
+        0.2,
+        0.36
+      ],
+      "body": "ROBED",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 20.7,
+      "cast_holds": [
+        0.38,
+        0.12,
+        0.2,
+        0.3
+      ],
+      "faction_id": "HIGHLAND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "hero:OBSIDIAN_CANTOR",
+      "name": "玄烬",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "降温调先停息再开歌匣；碎玻扇合回胸片而非快速连射。",
+      "timing_family": "glass_cast",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 18,
+      "weapon": "ceramic_song_casket"
+    },
+    "hero:POLLEN_COMET": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.22,
+        0.12,
+        0.18,
+        0.48
+      ],
+      "body": "PETAL_ROBED",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 13.8,
+      "cast_holds": [
+        0.28,
+        0.12,
+        0.24,
+        0.36
+      ],
+      "faction_id": "FOREST",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "hero:POLLEN_COMET",
+      "name": "流穗",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "追踪迁徙萤群的开放花萼，轻抬杖而不伪造飞行或位移。",
+      "timing_family": "petal_cast",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 12,
+      "weapon": "comet_seed_wand"
+    },
+    "hero:PRISM_MANTIS": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.18,
+        0.12,
+        0.26,
+        0.44
+      ],
+      "body": "MULTILEG",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 11.5,
+      "cast_holds": [
+        0.26,
+        0.14,
+        0.24,
+        0.36
+      ],
+      "faction_id": "UNDERGROUND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "hero:PRISM_MANTIS",
+      "name": "隙琢",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "六足避开菌床，双折棱刃一短一长回收，不成为普通人形。",
+      "timing_family": "paired_cut",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 10,
+      "weapon": "paired_facet_blades"
+    },
+    "hero:QUAKE_PRIEST": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.32,
+        0.1,
+        0.22,
+        0.36
+      ],
+      "body": "MULTILEG",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 18.4,
+      "cast_holds": [
+        0.36,
+        0.12,
+        0.22,
+        0.3
+      ],
+      "faction_id": "UNDERGROUND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "hero:QUAKE_PRIEST",
+      "name": "岩祷",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "石册页先校界再短镐敲落，断层印不改变地形碰撞。",
+      "timing_family": "fault_tap",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 16,
+      "weapon": "fault_ledger_pick"
+    },
+    "hero:RIDGE_JARL": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.34,
+        0.1,
+        0.16,
+        0.4
+      ],
+      "body": "HEAVY_BIPED",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 20.7,
+      "cast_holds": [
+        0.3,
+        0.14,
+        0.2,
+        0.36
+      ],
+      "faction_id": "HIGHLAND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "hero:RIDGE_JARL",
+      "name": "崖盾",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "坝钉肩甲先沉稳再断锤落下，回收到三层护肩后。",
+      "timing_family": "hammer_drop",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 18,
+      "weapon": "broken_dam_hammer"
+    },
+    "hero:RUNE_ORACLE": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.3,
+        0.14,
+        0.18,
+        0.38
+      ],
+      "body": "ROBED",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 19.55,
+      "cast_holds": [
+        0.36,
+        0.16,
+        0.18,
+        0.3
+      ],
+      "faction_id": "HIGHLAND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "hero:RUNE_ORACLE",
+      "name": "符炉",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "天气工艺师以窑尺和倒风杯试温，施法不是统一火球发射。",
+      "timing_family": "kiln_cast",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 17,
+      "weapon": "kiln_gauge_cup"
+    },
+    "hero:SLAG_DANCER": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.18,
+        0.12,
+        0.26,
+        0.44
+      ],
+      "body": "BIPED",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 14.95,
+      "cast_holds": [
+        0.26,
+        0.14,
+        0.24,
+        0.36
+      ],
+      "faction_id": "HIGHLAND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "hero:SLAG_DANCER",
+      "name": "淬汀",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "冷热双刃先后不同拍，重回收体现试刃而非无限旋风。",
+      "timing_family": "paired_cut",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 13,
+      "weapon": "hot_cold_twin_blades"
+    },
+    "hero:SPORE_GUIDE": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.28,
+        0.18,
+        0.18,
+        0.36
+      ],
+      "body": "MULTILEG",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 17.25,
+      "cast_holds": [
+        0.3,
+        0.22,
+        0.2,
+        0.28
+      ],
+      "faction_id": "UNDERGROUND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "hero:SPORE_GUIDE",
+      "name": "菌灯",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "分格菌罐先分室再过筛，轻落孢粒不是敌人中毒结算。",
+      "timing_family": "spore_sift",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 15,
+      "weapon": "partition_sieve_spoon"
+    },
+    "hero:SPORE_STALKER": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.36,
+        0.12,
+        0.08,
+        0.44
+      ],
+      "body": "MULTILEG",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 12.65,
+      "cast_holds": [
+        0.32,
+        0.14,
+        0.2,
+        0.34
+      ],
+      "faction_id": "UNDERGROUND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "hero:SPORE_STALKER",
+      "name": "孢纹",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "现役六足双轨背弩先张筋再回弹，不再沿用旧双镰语义。",
+      "timing_family": "crossbow_release",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 11,
+      "weapon": "paired_rail_crossbow"
+    },
+    "hero:STORM_HERALD": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.32,
+        0.1,
+        0.12,
+        0.46
+      ],
+      "body": "BIPED",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 17.25,
+      "cast_holds": [
+        0.34,
+        0.1,
+        0.18,
+        0.38
+      ],
+      "faction_id": "HIGHLAND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "hero:STORM_HERALD",
+      "name": "雷旌",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "怕高的旗回收者先绷接地绳，旗落后留短回弹。",
+      "timing_family": "rope_snap",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 15,
+      "weapon": "grounding_flag_rope"
+    },
+    "hero:THORN_CHANTER": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.28,
+        0.1,
+        0.14,
+        0.48
+      ],
+      "body": "ROBED",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 17.25,
+      "cast_holds": [
+        0.32,
+        0.1,
+        0.18,
+        0.4
+      ],
+      "faction_id": "FOREST",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "hero:THORN_CHANTER",
+      "name": "棘歌",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "缺一拍的棘琴先停再拨，收弦比击弦多留一拍。",
+      "timing_family": "pluck_reprise",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 15,
+      "weapon": "open_thorn_harp"
+    },
+    "hero:THORN_REAVER": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.18,
+        0.12,
+        0.26,
+        0.44
+      ],
+      "body": "BIPED",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 12.65,
+      "cast_holds": [
+        0.26,
+        0.14,
+        0.24,
+        0.36
+      ],
+      "faction_id": "FOREST",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "hero:THORN_REAVER",
+      "name": "间穗",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "嫁接镰先短切再回手，不把开叉镰当厚重战锤。",
+      "timing_family": "paired_cut",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 11,
+      "weapon": "split_grafting_sickle"
+    },
+    "hero:TUNNEL_SENTINEL": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.3,
+        0.12,
+        0.22,
+        0.36
+      ],
+      "body": "HEAVY_MULTILEG",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 19.55,
+      "cast_holds": [
+        0.32,
+        0.16,
+        0.2,
+        0.32
+      ],
+      "faction_id": "UNDERGROUND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "hero:TUNNEL_SENTINEL",
+      "name": "壳巢",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "可携祖门先由宽前足撑住，再落宽铲；壳巢脚底不游移。",
+      "timing_family": "shell_push",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 17,
+      "weapon": "station_shell_spade"
+    },
+    "hero:VINE_WARDEN": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.3,
+        0.1,
+        0.18,
+        0.42
+      ],
+      "body": "TREANT",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 23,
+      "cast_holds": [
+        0.34,
+        0.14,
+        0.18,
+        0.34
+      ],
+      "faction_id": "FOREST",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "hero:VINE_WARDEN",
+      "name": "枝垒",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "借根养蜂者压低悬巢肩再收臂，蜂箱不随动作变脚锚。",
+      "timing_family": "root_weight",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 20,
+      "weapon": "hive_knuckle"
+    },
+    "hero:WIND_COURIER": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.34,
+        0.14,
+        0.1,
+        0.42
+      ],
+      "body": "BIPED",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 12.65,
+      "cast_holds": [
+        0.3,
+        0.16,
+        0.16,
+        0.38
+      ],
+      "faction_id": "FOREST",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "hero:WIND_COURIER",
+      "name": "风翎",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "不齐尾羽的候鸟信使，拉弦停留与放箭回收分明。",
+      "timing_family": "bow_release",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 11,
+      "weapon": "migrant_bow"
+    },
+    "leaf_archer": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.34,
+        0.14,
+        0.1,
+        0.42
+      ],
+      "body": "BIPED",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 13.8,
+      "cast_holds": [
+        0.3,
+        0.16,
+        0.16,
+        0.38
+      ],
+      "faction_id": "FOREST",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "leaf_archer",
+      "name": "叶弓手",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "路标员先拉叶弓，弦松快、重新搭箭慢。",
+      "timing_family": "bow_release",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 12,
+      "weapon": "split_recurve"
+    },
+    "ridge_guard": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.34,
+        0.1,
+        0.16,
+        0.4
+      ],
+      "body": "STOCKY_BIPED",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 18.4,
+      "cast_holds": [
+        0.3,
+        0.14,
+        0.2,
+        0.36
+      ],
+      "faction_id": "HIGHLAND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "ridge_guard",
+      "name": "山垒卫",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "轮值护卫短方锤先抬后落，不使用崖盾的长断锤节奏。",
+      "timing_family": "hammer_drop",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 16,
+      "weapon": "square_hammer"
+    },
+    "root_mender": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.24,
+        0.18,
+        0.2,
+        0.38
+      ],
+      "body": "ROBED",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 18.4,
+      "cast_holds": [
+        0.34,
+        0.18,
+        0.16,
+        0.32
+      ],
+      "faction_id": "FOREST",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "root_mender",
+      "name": "根织者",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "纺根杖先牵线后收轴，避免与弓兵一样的急促吐弹。",
+      "timing_family": "thread_cast",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 16,
+      "weapon": "root_spindle"
+    },
+    "rune_behemoth": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.36,
+        0.1,
+        0.18,
+        0.36
+      ],
+      "body": "COLOSSUS",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 27.6,
+      "cast_holds": [
+        0.36,
+        0.14,
+        0.2,
+        0.3
+      ],
+      "faction_id": "HIGHLAND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "rune_behemoth",
+      "name": "符纹巨兽",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "多层坝板承重再落，回收长于轻装兵而不降低实际攻速。",
+      "timing_family": "stone_weight",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 24,
+      "weapon": "strata_ram"
+    },
+    "rune_keeper": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.3,
+        0.14,
+        0.18,
+        0.38
+      ],
+      "body": "ROBED",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 19.55,
+      "cast_holds": [
+        0.36,
+        0.16,
+        0.18,
+        0.3
+      ],
+      "faction_id": "HIGHLAND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "rune_keeper",
+      "name": "符炉守望",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "窑尺先读温差再落印，不让整件法袍像剑士前扑。",
+      "timing_family": "kiln_cast",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 17,
+      "weapon": "kiln_gauge_staff"
+    },
+    "spore_mender": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.28,
+        0.18,
+        0.18,
+        0.36
+      ],
+      "body": "MULTILEG",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 17.25,
+      "cast_holds": [
+        0.3,
+        0.22,
+        0.2,
+        0.28
+      ],
+      "faction_id": "UNDERGROUND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "spore_mender",
+      "name": "孢织者",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "双室菌罐分配不同样本，菌针略停后落而不是连射短矢。",
+      "timing_family": "spore_sift",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 15,
+      "weapon": "culture_spindle"
+    },
+    "stag_rider": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.22,
+        0.12,
+        0.24,
+        0.42
+      ],
+      "body": "MOUNTED",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 16.1,
+      "cast_holds": [
+        0.26,
+        0.14,
+        0.2,
+        0.4
+      ],
+      "faction_id": "FOREST",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "stag_rider",
+      "name": "鹿骑兵",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "叶鞍双结承重，鹿步一前一后，不把骑手当步兵抖动。",
+      "timing_family": "mounted_thrust",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 14,
+      "weapon": "antler_lance"
+    },
+    "stone_slinger": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.3,
+        0.2,
+        0.08,
+        0.42
+      ],
+      "body": "BIPED",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 16.1,
+      "cast_holds": [
+        0.28,
+        0.16,
+        0.16,
+        0.4
+      ],
+      "faction_id": "HIGHLAND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "stone_slinger",
+      "name": "砾石投手",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "称量石子装入双尾投带，旋绳稍长、脱手短促。",
+      "timing_family": "sling_release",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 14,
+      "weapon": "double_tail_sling"
+    },
+    "tunnel_rider": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.22,
+        0.12,
+        0.24,
+        0.42
+      ],
+      "body": "MOUNTED_MULTILEG",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 14.95,
+      "cast_holds": [
+        0.26,
+        0.14,
+        0.2,
+        0.4
+      ],
+      "faction_id": "UNDERGROUND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "tunnel_rider",
+      "name": "洞穴蜥骑",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "低伏六足蜥交错承重，骑手枝架前探后回，不穿墙。",
+      "timing_family": "mounted_thrust",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 13,
+      "weapon": "lizard_fork_lance"
+    },
+    "vine_guard": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.16,
+        0.12,
+        0.24,
+        0.48
+      ],
+      "body": "BIPED",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 14.95,
+      "cast_holds": [
+        0.2,
+        0.16,
+        0.22,
+        0.42
+      ],
+      "faction_id": "FOREST",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "vine_guard",
+      "name": "藤卫",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "根叉矛守迁林通路；前探短，回收到护肩后。",
+      "timing_family": "light_thrust",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 13,
+      "weapon": "fork_spear"
+    },
+    "worker:FOREST": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.28,
+        0.16,
+        0.18,
+        0.38
+      ],
+      "body": "BIPED",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 16.1,
+      "cast_holds": [
+        0.22,
+        0.22,
+        0.2,
+        0.36
+      ],
+      "faction_id": "FOREST",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "worker:FOREST",
+      "name": "织叶工人",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "分种腰匣随承重落下；短剪枝锄先抬后收，不是战矛。",
+      "timing_family": "work_scoop",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 14,
+      "weapon": "short_pruning_hoe"
+    },
+    "worker:HIGHLAND": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.32,
+        0.12,
+        0.18,
+        0.38
+      ],
+      "body": "STOCKY_BIPED",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 18.4,
+      "cast_holds": [
+        0.3,
+        0.14,
+        0.18,
+        0.38
+      ],
+      "faction_id": "HIGHLAND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "worker:HIGHLAND",
+      "name": "烬脊工人",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "炉道修补者短镐轻敲，重腰包使搬运步频比空手慢。",
+      "timing_family": "work_weight",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 16,
+      "weapon": "short_mason_pick"
+    },
+    "worker:UNDERGROUND": {
+      "adds_illustrations": false,
+      "attack_holds": [
+        0.28,
+        0.16,
+        0.18,
+        0.38
+      ],
+      "body": "MULTILEG",
+      "body_scale_m76": "(1.0, 1.0)",
+      "carry_cycle_ticks": 13.8,
+      "cast_holds": [
+        0.22,
+        0.22,
+        0.2,
+        0.36
+      ],
+      "faction_id": "UNDERGROUND",
+      "foot_anchor_policy": "unchanged-source-anchor",
+      "identity": "worker:UNDERGROUND",
+      "name": "穴鸣工人",
+      "new_texture_entries": 0,
+      "offset_m76": "(0.0, 0.0)",
+      "rotation_m76": 0,
+      "story_anchor": "短触须侧罐孢灯保持低身，劳动铲不同于前线螳刃。",
+      "timing_family": "work_scoop",
+      "version": "m76-faction-motion-b-v1",
+      "walk_cycle_ticks": 12,
+      "weapon": "wide_labor_spade"
+    }
+  },
+  "authored_body_count": 20,
+  "authored_body_frames": [
+    {
+      "cases": [
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        }
+      ],
+      "hero_id": "OATH_REAVER"
+    },
+    {
+      "cases": [
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        }
+      ],
+      "hero_id": "BRIDGE_VANGUARD"
+    },
+    {
+      "cases": [
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        }
+      ],
+      "hero_id": "RELIC_REAVER"
+    },
+    {
+      "cases": [
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        }
+      ],
+      "hero_id": "OSSUARY_KNIGHT"
+    },
+    {
+      "cases": [
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        }
+      ],
+      "hero_id": "PISTON_FENCER"
+    },
+    {
+      "cases": [
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        }
+      ],
+      "hero_id": "RIVET_LEGIONARY"
+    },
+    {
+      "cases": [
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        }
+      ],
+      "hero_id": "THORN_REAVER"
+    },
+    {
+      "cases": [
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        }
+      ],
+      "hero_id": "ANTLER_WARRIOR"
+    },
+    {
+      "cases": [
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        }
+      ],
+      "hero_id": "SLAG_DANCER"
+    },
+    {
+      "cases": [
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        }
+      ],
+      "hero_id": "BASALT_CHAMPION"
+    },
+    {
+      "cases": [
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        }
+      ],
+      "hero_id": "PRISM_MANTIS"
+    },
+    {
+      "cases": [
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        }
+      ],
+      "hero_id": "CARAPACE_WARRIOR"
+    },
+    {
+      "cases": [
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        }
+      ],
+      "hero_id": "SUNGLASS_SCRIBE"
+    },
+    {
+      "cases": [
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        }
+      ],
+      "hero_id": "CINDER_TESTATOR"
+    },
+    {
+      "cases": [
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        }
+      ],
+      "hero_id": "FLUX_BOMBARDIER"
+    },
+    {
+      "cases": [
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        }
+      ],
+      "hero_id": "POLLEN_COMET"
+    },
+    {
+      "cases": [
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        }
+      ],
+      "hero_id": "OBSIDIAN_CANTOR"
+    },
+    {
+      "cases": [
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 2,
+          "unique_silhouettes": 2
+        }
+      ],
+      "hero_id": "MYCELIAL_CATALYST"
+    },
+    {
+      "cases": [
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 2
+        }
+      ],
+      "hero_id": "EMBER_CAVALIER"
+    },
+    {
+      "cases": [
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "PLAYER",
+          "unique_pixels": 4,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 2
+        },
+        {
+          "action": "WALK",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 4
+        },
+        {
+          "action": "HURT",
+          "direction": "(-1.0, 0.0)",
+          "side": "AI",
+          "unique_pixels": 4,
+          "unique_silhouettes": 2
+        }
+      ],
+      "hero_id": "SPORE_STALKER"
+    }
+  ],
+  "source_sha256": {
+    "src/presentation/heroic_faction_motion_b_m76.gd": "6a0c134009fd3f81b8f81492b0ca3980a9afaedc1d6bfbe9f498ef5cbf0df5b5",
+    "src/presentation/heroic_expansion_actors_m66.gd": "0cb3f51da895bdd8711181b0fd358454eec7b7986039b57d4ef47acd4a3e9f74",
+    "src/presentation/heroic_mage_actors_m68.gd": "2e5988992e5cb33ea46c8875a35004b6bbbd8979db40a1562ea68b2c2e98e5f2",
+    "src/presentation/heroic_ranged_roles_m68.gd": "daab9ca4866c24751be300daf7e95b5010fcec497dc809e21aa63f5802f815a7"
+  },
+  "report": "docs/media/m76/motion-b/authored-green-attempt-01.json",
+  "report_sha256": "d27abbdd0d5f07983f22571186051624f0b778a7b4d4aba6037db20686f31a71"
+}

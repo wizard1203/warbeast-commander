@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "pack_id": "heroic-pixel-world-m41",
+  "runtime_root": "res://assets/third_party/heroic_world_local/",
+  "source_url": "https://iknowkingrabbit.itch.io/heroic-building-pack",
+  "attribution": "Heroic Asset Series artwork by Aleksandr Makarov (iknowkingrabbit), used under the author's asset-pack license.",
+  "public_raw_redistribution": false,
+  "archive": {
+    "file": "HAS Buildings Pack 1.01.zip",
+    "bytes": 774483,
+    "sha256": "ae1f20b7ac036f7833a4ddf48f09497569e9d90f3fc57c5401ebe7ae1f926dca"
+  },
+  "roles": {
+    "MATERIAL": "HAS Buildings Pack/Mines/GoldMine/GoldMine.png"
+  },
+  "files": {
+    "HAS Buildings Pack/Mines/GoldMine/GoldMine.png": {
+      "file": "GoldMine.png",
+      "bytes": 1007,
+      "sha256": "2fb5fd14f438f04d31a7252b19e1f8fd76c0680767c91d1a38b535ece792dea2",
+      "width": 32,
+      "height": 32
+    }
+  },
+  "selected_rgba8_bytes": 4096,
+  "texture_budget_bytes": 8192
+}

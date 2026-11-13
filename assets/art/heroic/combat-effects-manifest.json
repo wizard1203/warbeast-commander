@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "pack_id": "heroic-combat-effects-m42",
+  "runtime_root": "res://assets/third_party/heroic_combat_local/",
+  "source_url": "https://iknowkingrabbit.itch.io/has-magic-book",
+  "attribution": "Heroic Asset Series artwork by Aleksandr Makarov (iknowkingrabbit).",
+  "public_raw_redistribution": false,
+  "archive": {
+    "file": "HAS Magic Book (1.1).zip",
+    "bytes": 2049798,
+    "sha256": "be7ac9cb2b82b9f91c29984da5a501bdd0f6c9cb9223c60b763c37c04d6d023d"
+  },
+  "files": {
+    "HAS Magic Book 1.1/FirstStrike/FirstStrikeAllFrames.png": {"file":"FirstStrike.png","bytes":427,"sha256":"73e443fbdb38c37673edbae5a051084bb820686c41e81f4e78faed4ac70f7742","width":96,"height":24},
+    "HAS Magic Book 1.1/Shrapnel/ShrapnelAllFrames.png": {"file":"Shrapnel.png","bytes":544,"sha256":"4a2706df89e8a3d65210b2b8dfaf37ad9a57878037c14a3449291e2c5a625341","width":96,"height":24},
+    "HAS Magic Book 1.1/LightningBolt/LightningBoltAllFrames.png": {"file":"LightningBolt.png","bytes":227,"sha256":"fca67d9b3c3fc56f09eda89ea7de4788a6615b932367ee810dbab3493282d692","width":96,"height":24},
+    "HAS Magic Book 1.1/DeathRipple/DeathRippleAllFrames.png": {"file":"DeathRipple.png","bytes":422,"sha256":"58efbc96430cd42d415e47f46a89f6b82a6037d0d25b7a7aec1fdcdefceb0c6f","width":96,"height":24},
+    "HAS Magic Book 1.1/AcidSplash/AcidSplashAllFrames.png": {"file":"AcidSplash.png","bytes":426,"sha256":"6038215b4864ab52d6b6101c44553a0374d6cce1fde36de4d0dd66b5adf44334","width":96,"height":24},
+    "HAS Magic Book 1.1/IceSpikes/IceSpikesAllFrames.png": {"file":"IceSpikes.png","bytes":463,"sha256":"ca42ae86061ed11e1ab6a4b2ec0c32d6ee386fb19fca8395e8adc4a3d98a4e67","width":96,"height":24},
+    "HAS Magic Book 1.1/StoneSpikes/StoneSpikesAllFrames.png": {"file":"StoneSpikes.png","bytes":442,"sha256":"b2cff2ad394cd2203b8cb1e5aa3de887a48e7580b8d565ca4abc7325d0d07e56","width":96,"height":24},
+    "HAS Magic Book 1.1/HolyLight/HolyLightAllFrames.png": {"file":"HolyLight.png","bytes":498,"sha256":"aac9474a73d100874c1b48ce55bf66a4e5589f71df44c00dec4604244f6b7fac","width":96,"height":24},
+    "HAS Magic Book 1.1/FlameStrike/FlameStrikeAllFrames.png": {"file":"FlameStrike.png","bytes":368,"sha256":"c92d0b8bad0796665d9186b2a2369a73575514c268cd558f67ed1bacee61d444","width":96,"height":24},
+    "HAS Magic Book 1.1/Explosion/ExplosionAllFrames.png": {"file":"Explosion.png","bytes":568,"sha256":"5f63ba870f33c4bc0185925c66b2ea0284bdb258ff620f68ebfdb7d72db4d1aa","width":96,"height":24}
+  },
+  "selected_rgba8_bytes": 92160,
+  "texture_budget_bytes": 92160
+}

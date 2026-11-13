@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "pack_id": "heroic-starter-2020-11-10",
+  "title": "Heroic Asset Series: Starter Pack",
+  "author": "Aleksandr Makarov (iknowkingrabbit)",
+  "source_url": "https://iknowkingrabbit.itch.io/has-starter-pack",
+  "license_url": "https://iknowkingrabbit.itch.io/has-starter-pack#license",
+  "license_checked_on": "2026-10-17",
+  "attribution": "Heroic Asset Series: Starter Pack artwork by Aleksandr Makarov (iknowkingrabbit), used under the author's asset-pack license.",
+  "distribution": "local-only-third-party; not covered by the repository source or original-art license",
+  "public_raw_redistribution": false,
+  "runtime_root": "res://assets/third_party/heroic_local/",
+  "texture_filter": "nearest",
+  "grid_pixels": 16,
+  "texture_budget_bytes": 4194304,
+  "texture_rgba8_bytes": 1184768,
+  "archive": {
+    "filename": "HAS Starter Pack.zip",
+    "root": "HAS Started Pack/",
+    "bytes": 95930,
+    "sha256": "7c4a0bdd471d25f94a50b0189b39f64110c2917ac155a64d45bae2893bd6d66c"
+  },
+  "coverage": {
+    "biomes": ["grass"],
+    "terrain_props_roads_houses": true,
+    "animated_units": false,
+    "full_building_pack": false,
+    "full_overworld_pack": false,
+    "note": "Seven actual Starter PNG sheets only. Units are separately authored project pixel art, not the author's paid character animations. Paid Heroic packs are not installed."
+  },
+  "sheets": {
+    "land": {"file":"SP-Land.png","bytes":29886,"sha256":"225b84362810c231c80b18b50c8542bbef9130749f9df046427b993be905e2a2","width":256,"height":272},
+    "mountains": {"file":"SP-Mountains.png","bytes":3048,"sha256":"e51c9095daf86d21b7b2678201c1ffd6771ac2bcd6ee08434b8eb3f3f4eeb979","width":272,"height":48},
+    "objects": {"file":"SP-Objects.png","bytes":5391,"sha256":"92bcddf1355a2f7efcb9b0d13acb5266428eb8eb319bbcbbae2a32d31e08a3c9","width":176,"height":64},
+    "river": {"file":"SP-River.png","bytes":4615,"sha256":"413409eff96818bfa08f92f2aad64f442caa5e189760bafe3e9167416b52a9d2","width":128,"height":96},
+    "road": {"file":"SP-road.png","bytes":1704,"sha256":"247a132189a796131852813f38a92ed3778f02d5d12e07b46b686365b09d58ef","width":128,"height":80},
+    "tileset": {"file":"SP-Tileset.png","bytes":48582,"sha256":"797f34da9027aa870ffc155e536c81cc1e669ce99e6f8d7962490f272b16702f","width":256,"height":624},
+    "trees": {"file":"SP-Trees.png","bytes":3212,"sha256":"e3b452aabf828a56f5cae28c6011c82a3924c5b20a54894f54d4b5b41eec58bb","width":208,"height":96}
+  }
+}

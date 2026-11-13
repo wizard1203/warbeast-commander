@@ -1,0 +1,19 @@
+{
+  "schema": "warbeast.native-body-vendor-lock/v1",
+  "name": "godot-cpp",
+  "upstream": "https://github.com/godotengine/godot-cpp",
+  "tag": "godot-4.5-stable",
+  "commit": "e83fd0904c13356ed1d4c3d09f8bb9132bdc6b77",
+  "archive_url": "https://codeload.github.com/godotengine/godot-cpp/tar.gz/e83fd0904c13356ed1d4c3d09f8bb9132bdc6b77",
+  "archive_sha256": "d4c03daf46c8bef4544614182b0762c3e32789151c7f8f44e8eb2053d5cddeba",
+  "extension_api_sha256": "23d807e3f914f7a91b152a8a7b03638d4853f8e642b79f10ce85a43b44340bfd",
+  "gdextension_interface_sha256": "a40ac4fca0f526910bd0e6afc6da6c169f50801c84d4e29c4ce2891cadc7b550",
+  "license": "MIT",
+  "license_file": "licenses/godot-cpp-LICENSE.md",
+  "license_sha256": "26a5b210d90760156ce886267ce9df235787dcc6cebfd7ecd95ef5b6fdcc95bf",
+  "build_target_api": "Godot 4.5 stable single precision",
+  "supplied_binary_arch": "macos.arm64",
+  "supplied_binary_runtime_qualified": "Godot 4.7.2 stable official ed1daf0bf001b61586d9930840f2f1394092c079",
+  "source_not_vendored": true,
+  "rebuild": "Supply reviewed fixed source outside this package explicitly. No runtime download, private-cache dependency or global tool installation."
+}
